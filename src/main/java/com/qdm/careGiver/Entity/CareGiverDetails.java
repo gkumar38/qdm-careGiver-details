@@ -1,4 +1,4 @@
-package com.qdm.cg.Entity;
+package com.qdm.careGiver.Entity;
 
 public class CareGiverDetails {
 	
