@@ -1,23 +1,24 @@
 package com.qdm.careGiver.Service;
 
-import java.util.List;
-import org.springframework.stereotype.Service;
+
+
+import com.qdm.careGiver.Response.NotificationResponse;
 
 
 
 
-@Service
+
 public interface CGHomeService {
 	
-	public List<String> getCgNotifications();
+	public NotificationResponse getCgNotifications(Long userId,NotificationResponse notificationResp);
 	
-	public Integer totalCount(String type);
+	//public Integer totalCount(String userId, String type);
 	
-	public List<String> getNudges(int size);
+	//public List<String> getNudges(String userId,int size);
 
-	public List<String> getNudgesDetails();
+	//public List<String> getNudgesDetails(String userID);
 
-	public Integer totalFeedbackCount(String type); 
+	//public Integer totalFeedbackCount(String userId, String type); 
 	
 
 }
